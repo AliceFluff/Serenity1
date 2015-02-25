@@ -1,0 +1,9 @@
+Serenity Build Log.
+
+Build(s)
+1.0 - Basic Window with Console/Log and Timer.
+1.1 - Introduced Direct3D 11, initialised d3d11, shutdown d3d11, render d3d11 backbuffer and displays the FPS in window title.
+1.12 - Upgraded the Text Log to be more efficent and easier to under stand.
+1.1.2 - Input checking for support MSAA and CSAA, included selector for the correct direct3d11 feature level support,
+	changed the back buffer and depth buffer 2D Texture buffers to be called locally in the function to save on memory.
+	
